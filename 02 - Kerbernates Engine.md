@@ -105,3 +105,6 @@ GKE uses Kubernetes objects to create and manage your cluster's resources. Kuber
 
 2. When prompted, type `Y` to confirm.
     Deleting the cluster can take a few minutes. For more information on deleted GKE clusters, view the documentation.
+
+## 參考
+* https://hub.docker.com/_/nginx
