@@ -9,12 +9,6 @@ Dev Ops practices will regularly make use of multiple deployments to manage appl
 * Practice with updating deployments and deployment styles
 <br/>
 
-#### Prerequisites
-* Before taking this lab, you should have taken at least the labs Introduction to Docker and Hello Node Kubernetes
-* Linux System Administration skills
-* Dev Ops theory: concepts of continuous deployment
-<br/>
-
 ## Introduction to deployments
 Heterogeneous deployments typically involve connecting two or more distinct infrastructure environments or regions to address a specific technical or operational need. Heterogeneous deployments are called "hybrid", "multi-cloud", or "public-private", depending upon the specifics of the deployment. For the purposes of this lab, heterogeneous deployments include those that span regions within a single cloud environment, multiple public cloud environments (multi-cloud), or a combination of on-premises and public cloud environments (hybrid or public-private).
 
