@@ -98,7 +98,7 @@ GKE uses Kubernetes objects to create and manage your cluster's resources. Kuber
     ```
     <br/>
 
-    ![](/images/2-1.png)
+    ![](/images/4-1.png)
 
 ## Task 5: Deleting the cluster
 1. To delete the cluster, run the following command:

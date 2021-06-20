@@ -11,7 +11,7 @@ Cloudd Shell 提供了一些指令讓使用者可以對 GCP 的主機進行資�
 #### Understanding regions and zones
 Google Compoute Engine 資源位於區域 ( region ) 或區塊中 ( zone )。資源可以在區域 ( region ) 中被運行，每個 region 中包含一個到多個區塊 ( zone )。例如下面這張圖，在 region `us-central1` 指的是 Central US 這塊區域，這塊區域中有數個 zone：`us-central1-a`、`us-central1-b`、`us-central1-c` 以及 `us-central1-f`。<br/>
 
-![](/images/4-1.png)
+![](/images/3-1.png)
 
 那些在 zone 中的資源被稱為**區域資源 ( zonal resources )**。VM ( virtual machine ) 實例和持久性區塊儲存空間 ( persistence disks ) 位於同一個區塊 ( zone ) 中。如果要將 persistence disks 連接到虛擬機實例，則兩個資源必須位於同一區域中 ( same zone )。同樣，如果要為實例分配靜態 IP 位址，則兩個資源的實例也必須與靜態 IP 位址在同一個區域 ( region )。
 
@@ -125,7 +125,7 @@ Your active configuration is: [cloudshell-28573]
     gcloud compute instances create gcelab2 --machine-type n1-standard-2 --zone $ZONE
     ```
     輸入指令後應該會看到這些訊息被輸出：<br/>
-    ![](/images/4-2.png)
+    ![](/images/3-2.png)
 
     ###### 指令內容
     * `gcloud compute` -- 可以直接透過這個指令用更比 Conpute Engine API 更簡單的格式來管理 Compute Engine 上的資源。
@@ -264,7 +264,7 @@ Your active configuration is: [cloudshell-28573]
 
 ## Test your understanding
 【多選題】<br/>
-![](/images/4-3.png)
+![](/images/3-3.png)
 
 ## 來源
 * https://google.qwiklabs.com/focuses/563?parent=catalog

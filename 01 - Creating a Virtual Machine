@@ -10,7 +10,7 @@ Compute Engine 可以讓使用者在 Google 的 infrastucture 上建立 VM，並
 ###### 使用 Cloud Console 建立 VM
 Cloud Shell 是一個在 Goolge Cloud 運行，且已經加載了開發工具的虛擬機。它提供了一個持久的 5GB 的主目錄，而我們可以在 Cloud Shell 上透過指令對 GCP 資源進行訪問。在 Task 1 中，我們要透過 Google Console 建立一個已經先定義好機器類型的虛擬機。
 
-1. 進入 Google Cloud Platform 後由左側的**導覽 menu** 點選 &rarr; **Compute Engine** &rarr; **VM Instance** 進入管理虛擬機實例的畫面。<br/>
+1. 進入 Google Cloud Platform 後由左側的**導覽 menu** 點選 &rarr; **Compute Engine** &rarr; **VM Instance** 進入管理實例的畫面。<br/>
    ![](/images/1-1.png)
    <br/>
 
@@ -22,7 +22,7 @@ Cloud Shell 是一個在 Goolge Cloud 運行，且已經加載了開發工具的
    | 屬性 | 值 | 說明 |
    | --- | --- | --- |
    | Name | gcelab | 虛擬機實例名稱 |
-   | Redion | us-central1 (Iowa) | region 及 zone 之間的關係可以參考上一章，或是查看說明文件 [Regions and Zones](https://cloud.google.com/compute/docs/zones) |
+   | Redion | us-central1 (Iowa) | region 及 zone 之間的關係可以參考第3章，或是查看說明文件 [Regions and Zones](https://cloud.google.com/compute/docs/zones) |
    | Zone | us-central1-f | p.s. zone 的值等等會用到 |
    | Series | N1 | Series 的名稱 |
    | Machine Type | 2 vCPU|  這是一個 (n1-standard-2)、2-CPU、7.5GB RAM 實例。提供多種機器類型，從微型實例類型到 32 核/208GB RAM 實例類型。另外要注意的是，新的 project 可能會有一個默認的資源配額。更多資訊可以參考 [Machine Type](https://cloud.google.com/compute/docs/machine-types) 以及 [Resource Quota](https://cloud.google.com/compute/quotas)。 |
